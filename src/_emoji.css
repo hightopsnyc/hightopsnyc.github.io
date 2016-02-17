@@ -1,0 +1,15 @@
+.em-link {
+  background-image: url("../images/emoji/link.png"); }
+
+.em-sparkles {
+  background-image: url("../images/emoji/sparkles.png"); }
+
+.em {
+  height: 1em;
+  width: 1em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
+}

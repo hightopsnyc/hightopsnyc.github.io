@@ -22,6 +22,21 @@
 */
 
 /* logo blues */
+
+/* purple */
+
+/* nicetrack */
+
+/* zocdoc */
+
+/* temp storage */
+
+/* bfp stages */
+
+/* creators connect */
+
+/* haiku */
+
 /* sneaker complement */
 
 /* grays */
@@ -387,6 +402,7 @@ img { max-width: 100%; }
   .w3-m {      width: 4rem; }
   .w4-m {      width: 8rem; }
   .w5-m {      width: 16rem; }
+  .w-0-m  { width:  0%;  }
   .w-10-m { width:  10%; }
   .w-20-m { width:  20%; }
   .w-25-m { width:  25%; }
@@ -436,11 +452,8 @@ img { max-width: 100%; }
 .pbxl  {  padding-bottom: 64px;  padding-bottom: 4rem; }
 .ptxl  {  padding-top: 64px;  padding-top: 4rem; }
 .pvxxl { padding-top: 128px; padding-top: 8rem; padding-bottom: 128px; padding-bottom: 8rem; }
-
 .prl  {   padding-right: 32px;   padding-right: 2rem; }
-@media screen and (min-width: 60em) {
-  .prl-l  {   padding-right: 2rem; }
-}
+
 .pbl  {   padding-bottom: 32px;   padding-bottom: 2rem; }
 .pbxxl { padding-bottom: 128px; padding-bottom: 8rem; }
 .phs {    padding-left: 8px;    padding-left: .5rem;  padding-right: 8px;  padding-right: .5rem; }
@@ -448,6 +461,19 @@ img { max-width: 100%; }
 
 .plm  {   padding-left: 16px;   padding-left: 1rem; }
 .prm  {   padding-right: 16px;   padding-right: 1rem; }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .pbn-m  {   padding-bottom: 0; }
+}
+@media screen and (min-width: 30em){
+}
+@media screen and (min-width: 60em) {
+  .prl-l  {   padding-right: 2rem; }
+  .pbl-l  {   padding-bottom: 2rem; }
+  .pll-l  {   padding-left: 2rem; }
+  .plxl-l  {  padding-left: 4rem; }
+  .phxxl-l {  padding-left: 8rem;   padding-right: 8rem; }
+}
 .link {
 text-decoration: none;
 -webkit-transition: color .15s ease-in;
@@ -492,7 +518,7 @@ a.curious:hover{
    ========================================================================== */
 
 .dsh {
-  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.05);
 }
 .brd {
   border-radius:5px;
@@ -534,6 +560,8 @@ a.curious:hover{
 
 /* type */
 .curious { color:#26A8DF}
+.curious-l { color: #BF7EF2 }
+
 .denim { color:#1D7CC1;}
 
 .heliotrope {color:#BF7EF2}
@@ -542,18 +570,62 @@ a.curious:hover{
 .dusty { color: #636363 }
 .silver { color: #A9A9A9 }
 .dove { color: #737373 }
+.alabaster { color: #F7F7F7 }
 
 /* backgrounds */
 .b-zircon {background-color:#FAFCFF;}
-
+.b-mineshaft { background-color:#2B2B2B}
 /* borders */
-.bb-s { border-bottom:1px solid rgba(42, 255, 165, 0.25) }
+.bt-s { border-top:1px solid rgba(42, 255, 165, 0.25) }
+.bt-sp { border-top:1px solid rgba(42, 255, 165, 0.75) }
 
-.bb-b { border-bottom:1px solid rgba(29, 124, 193, 0.25) }
+.bt-b { border-top:1px solid rgba(29, 124, 193, 0.25) }
 
+.bt-v {
+  border-top:1px solid rgba(244, 45, 138, 0.25)
+}
+
+.bt-h {
+  border-top:1px solid rgb(191, 126, 242)
+}
+
+.bt-j {
+  border-top:1px solid rgba(243, 121, 47, 0.25)
+}
+
+.bt-bo {
+  border-top:1px solid rgba(177, 148, 171, 0.25)
+}
+.bt-bk {
+  border-top:1px solid rgba(139, 193, 217, 0.25)
+}
+.bt-d {
+  border-top:1px solid rgba(49, 203, 253, 0.25)
+}
+.bt-fp {
+  border-top:1px solid rgba(193, 242, 254, 0.5)
+}
+
+/* block quote */
 .bl-q {
   border-left: 8px solid rgba(38, 168, 223, 0.25);
   border-left:0.5rem solid rgba(38, 168, 223, 0.25);
+}
+
+.em-link {
+  background-image: url("../images/emoji/link.png"); }
+
+.em-sparkles {
+  background-image: url("../images/emoji/sparkles.png"); }
+
+.em {
+  height: 1em;
+  width: 1em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /*

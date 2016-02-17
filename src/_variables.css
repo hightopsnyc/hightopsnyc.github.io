@@ -19,17 +19,38 @@ $denim: #1D7CC1;
 
 $zircon: #FAFCFF;
 
+/* purple */
 $heliotrope: #BF7EF2;
+
+/* nicetrack */
+$violetred: #F42D8A;
+
+/* zocdoc */
+$jaffa: #F3792F;
+
+/* temp storage */
+$halfbaked: #8BC1D9;
+
+/* bfp stages */
+$dodger: #31CBFD;
+
+/* creators connect */
+$bouquet: #B194AB;
+
+/* haiku */
+$frenchpass: #C1F2FE;
+
 /* sneaker complement */
 $spring: #2AFFA5;
 $yg: #B8E986;
 
 /* grays */
-
+$mineshaft: #2B2B2B;
 $tundora: #444444;
 $dusty: #636363;
 $silver: #A9A9A9;
 $dove: #737373;
+$alabaster: #F7F7F7;
 
 
 :root {

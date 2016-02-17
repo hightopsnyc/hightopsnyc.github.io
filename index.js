@@ -1,4 +1,4 @@
-// dependencies for mnml
+// dependencies for htps
 
 var fs = require("fs")
 var autoprefixer = require("autoprefixer")
@@ -14,7 +14,7 @@ var cssnext = require('postcss-cssnext');
 
 
 // css to be processed
-var css = fs.readFileSync("src/mnml.css", "utf8")
+var css = fs.readFileSync("src/htps.css", "utf8")
 
 // process css
 var output = postcss([autoprefixer])
@@ -25,27 +25,27 @@ var output = postcss([autoprefixer])
   .use(customMedia())
   .use(cssnext())
   .process(css, {
-    from: "./src/mnml.css",
-    to: "./css/mnml.css"
+    from: "./src/htps.css",
+    to: "./css/htps.css"
   })
   .css
 
-fs.writeFile("css/mnml.css", output, 'utf-8')
+fs.writeFile("css/htps.css", output, 'utf-8')
 
 
 // Using Sqwish for CSS
 new compressor.minify({
     type: 'sqwish',
-    fileIn: './css/mnml.css',
-    fileOut: './css/mnml.min.css'
+    fileIn: './css/htps.css',
+    fileOut: './css/htps.min.css'
 });
 
 var content = ['index.html'];
-var css = ['css/mnml.min.css'];
+var css = ['css/htps.min.css'];
 
 var options = {
   minify: true,
-  output: 'css/mnml.min.css'
+  output: 'css/htps.min.css'
 };
 
 // purify(content, css, options, function (purifiedAndMinifiedResult) {

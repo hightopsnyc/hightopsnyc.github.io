@@ -1,5 +1,7 @@
 /* type */
 .curious { color:$curious}
+.curious-l { color: $heliotrope }
+
 .denim { color:$denim;}
 
 .heliotrope {color:$heliotrope}
@@ -8,15 +10,43 @@
 .dusty { color: $dusty }
 .silver { color: $silver }
 .dove { color: $dove }
+.alabaster { color: $alabaster }
 
 /* backgrounds */
 .b-zircon {background-color:$zircon;}
-
+.b-mineshaft { background-color:$mineshaft}
 /* borders */
-.bb-s { border-bottom:1px solid color($spring alpha(-75%)) }
+.bt-s { border-top:1px solid color($spring alpha(-75%)) }
+.bt-sp { border-top:1px solid color($spring alpha(-25%)) }
 
-.bb-b { border-bottom:1px solid color($denim alpha(-75%)) }
+.bt-b { border-top:1px solid color($denim alpha(-75%)) }
 
+.bt-v {
+  border-top:1px solid color($violetred alpha(-75%))
+}
+
+.bt-h {
+  border-top:1px solid color($heliotrope alpha(-0%))
+}
+
+.bt-j {
+  border-top:1px solid color($jaffa alpha(-75%))
+}
+
+.bt-bo {
+  border-top:1px solid color($bouquet alpha(-75%))
+}
+.bt-bk {
+  border-top:1px solid color($halfbaked alpha(-75%))
+}
+.bt-d {
+  border-top:1px solid color($dodger alpha(-75%))
+}
+.bt-fp {
+  border-top:1px solid color($frenchpass alpha(-50%))
+}
+
+/* block quote */
 .bl-q {
   border-left:0.5rem solid color($curious alpha(-75%));
 }

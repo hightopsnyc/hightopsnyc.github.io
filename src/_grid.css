@@ -291,6 +291,7 @@
   .w3-m {      width: 4rem; }
   .w4-m {      width: 8rem; }
   .w5-m {      width: 16rem; }
+  .w-0-m  { width:  0%;  }
   .w-10-m { width:  10%; }
   .w-20-m { width:  20%; }
   .w-25-m { width:  25%; }

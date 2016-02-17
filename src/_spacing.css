@@ -13,11 +13,8 @@
 .pbxl  {  padding-bottom: 4rem; }
 .ptxl  {  padding-top: 4rem; }
 .pvxxl { padding-top: 8rem; padding-bottom: 8rem; }
-
 .prl  {   padding-right: 2rem; }
-@media screen and (min-width: 60em) {
-  .prl-l  {   padding-right: 2rem; }
-}
+
 .pbl  {   padding-bottom: 2rem; }
 .pbxxl { padding-bottom: 8rem; }
 .phs {    padding-left: .5rem;  padding-right: .5rem; }
@@ -25,3 +22,16 @@
 
 .plm  {   padding-left: 1rem; }
 .prm  {   padding-right: 1rem; }
+
+@media (--breakpoint-medium) {
+  .pbn-m  {   padding-bottom: 0; }
+}
+@media (--breakpoint-medium-and-up){
+}
+@media (--breakpoint-large) {
+  .prl-l  {   padding-right: 2rem; }
+  .pbl-l  {   padding-bottom: 2rem; }
+  .pll-l  {   padding-left: 2rem; }
+  .plxl-l  {  padding-left: 4rem; }
+  .phxxl-l {  padding-left: 8rem;   padding-right: 8rem; }
+}
