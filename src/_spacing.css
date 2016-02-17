@@ -1,6 +1,7 @@
 /* spacing */
 
 /* margins */
+.mrs {  margin-right: 1rem;}
 .mrl  {   margin-right: 2rem; }
 .mbl  {   margin-bottom: 2rem; }
 .mam  {   margin: 1rem; }
@@ -21,3 +22,6 @@
 .pbxxl { padding-bottom: 8rem; }
 .phs {    padding-left: .5rem;  padding-right: .5rem; }
 .phm {    padding-left: 1rem;   padding-right: 1rem; }
+
+.plm  {   padding-left: 1rem; }
+.prm  {   padding-right: 1rem; }

@@ -2,6 +2,8 @@
 .curious { color:$curious}
 .denim { color:$denim;}
 
+.heliotrope {color:$heliotrope}
+
 .tundora{ color: $tundora }
 .dusty { color: $dusty }
 .silver { color: $silver }
@@ -14,3 +16,7 @@
 .bb-s { border-bottom:1px solid color($spring alpha(-75%)) }
 
 .bb-b { border-bottom:1px solid color($denim alpha(-75%)) }
+
+.bl-q {
+  border-left:0.5rem solid color($curious alpha(-75%));
+}
