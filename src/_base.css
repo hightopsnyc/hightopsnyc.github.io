@@ -1,1 +1,19 @@
-html, body { height: 100%; }
+html, body {
+  height: 100%;
+  margin:0;
+}
+
+/* position */
+.pos-abs { position: absolute; }
+.pos-rel  { position: relative; }
+
+/* coordinates */
+.top-1    { top: 1rem; }
+.left-1    { left: 1rem; }
+
+/* display */
+
+.db {     display: block; }
+
+/* overflows */
+.of-aut { overflow: auto; }

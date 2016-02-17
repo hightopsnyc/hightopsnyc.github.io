@@ -1,0 +1,27 @@
+.link {
+text-decoration: none;
+-webkit-transition: color .15s ease-in;
+        transition: color .15s ease-in;
+}
+
+.link:link,
+.link:visited {
+-webkit-transition: $denim .33s ease-in;
+        transition: $denim .33s ease-in;
+}
+.link:hover   {
+-webkit-transition: $denim .33s ease-in;
+        transition: $denim .33s ease-in;
+}
+.link:active  {
+-webkit-transition: $denim .33s ease-in;
+        transition: $denim .33s ease-in;
+}
+.link:focus   {
+-webkit-transition: $denim .33s ease-in;
+        transition: $denim .33s ease-in;
+}
+
+a.curious:hover{
+  color:$denim;
+}

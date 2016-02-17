@@ -1,0 +1,23 @@
+/* spacing */
+
+/* margins */
+.mrl  {   margin-right: 2rem; }
+.mbl  {   margin-bottom: 2rem; }
+.mam  {   margin: 1rem; }
+
+/* paddings */
+.pam  {   padding: 1rem; }
+.pvl {  padding-top: 2rem; padding-bottom: 2rem; }
+.pvm { padding-top: 1rem; padding-bottom: 1rem; }
+.pbxl  {  padding-bottom: 4rem; }
+.ptxl  {  padding-top: 4rem; }
+.pvxxl { padding-top: 8rem; padding-bottom: 8rem; }
+
+.prl  {   padding-right: 2rem; }
+@media screen and (min-width: 60em) {
+  .prl-l  {   padding-right: 2rem; }
+}
+.pbl  {   padding-bottom: 2rem; }
+.pbxxl { padding-bottom: 8rem; }
+.phs {    padding-left: .5rem;  padding-right: .5rem; }
+.phm {    padding-left: 1rem;   padding-right: 1rem; }

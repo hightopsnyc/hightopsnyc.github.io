@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="31px" viewBox="0 0 35 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>hightops_logo-d66ed1d8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.00236361917%" y1="50.0009455%" x2="99.9990546%" y2="50.0009455%" id="linearGradient-1">
+            <stop stop-color="#1C75BC" offset="0%"></stop>
+            <stop stop-color="#1D7BC0" offset="17.49%"></stop>
+            <stop stop-color="#1E7EC2" offset="50%"></stop>
+            <stop stop-color="#26A4DC" offset="50%"></stop>
+            <stop stop-color="#27AAE1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0003599%" x2="100.00072%" y2="50.0003599%" id="linearGradient-2">
+            <stop stop-color="#1C75BC" offset="0%"></stop>
+            <stop stop-color="#1D7BC0" offset="17.49%"></stop>
+            <stop stop-color="#1E7EC2" offset="50%"></stop>
+            <stop stop-color="#26A4DC" offset="50%"></stop>
+            <stop stop-color="#27AAE1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-20.000000, -24.000000)">
+            <g id="hightops_logo-d66ed1d8" sketch:type="MSLayerGroup" transform="translate(20.604036, 23.970703)">
+                <g id="Layer_1" sketch:type="MSShapeGroup">
+                    <g id="Group">
+                        <path d="M34.2384667,10.9275 L23.3089,21.8570667 L12.3793333,10.9275 L23.3089,0 L34.2384667,10.9275 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                        <path d="M28.7111667,16.4651333 L14.3561,30.8212333 L0,16.4651333 L14.3561,2.10903333 L28.7111667,16.4651333 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

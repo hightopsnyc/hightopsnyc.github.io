@@ -1,0 +1,46 @@
+html {font-size: 1em;}
+/* base font sizes */
+body {
+  line-height: 1.45;
+  font-size:18px;
+}
+.tt1, .tt2, .tt3, .tt4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+.tt1 {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+.tt2 {font-size: 2.369em;}
+.tt3 {font-size: 1.777em;}
+.tt4 {font-size: 1.333em;}
+.tt5 {font-size: 1.0em}
+
+small, .font_small {font-size: 0.75em;}
+
+img { max-width: 100%; }
+
+/* fonts */
+.archivo400  {
+  font-family:'archivo narrow', sans-serif
+}
+.ablack{
+  font-family: 'archivo black', sans-serif
+}
+
+/* tracking and transforms */
+.tracked-tight { letter-spacing: -.033em; }
+.ttu  { text-transform: uppercase }
+.no-underline   { text-decoration: none; }
+
+/* weight */
+.normal { font-weight: normal }
+.bold { font-weight: bold }
+
+/* alignment */
+.tc { text-align:center }
+
+/* line height */
+.lh-copy  { line-height: 1.6; }
