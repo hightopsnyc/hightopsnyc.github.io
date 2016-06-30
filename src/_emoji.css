@@ -4,6 +4,9 @@
 .em-sparkles {
   background-image: url("../images/emoji/sparkles.png"); }
 
+.em-key {
+  background-image: url("../images/emoji/key.png"); }
+
 .em {
   height: 1em;
   width: 1em;
