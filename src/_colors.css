@@ -11,6 +11,7 @@
 .silver { color: $silver }
 .dove { color: $dove }
 .alabaster { color: $alabaster }
+.brightturqoise { color: $brightturqoise }
 
 /* backgrounds */
 .b-zircon {background-color:$zircon;}
@@ -44,6 +45,10 @@
 }
 .bt-fp {
   border-top:1px solid color($frenchpass alpha(-50%))
+}
+
+.bt-bt {
+  border-top:1px solid color($brightturqoise alpha(-75%))
 }
 
 /* block quote */

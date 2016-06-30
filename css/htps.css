@@ -39,6 +39,8 @@
 
 /* sneaker complement */
 
+/* snailchat */
+
 /* grays */
 /* ==========================================================================
    MEDIA QUERIES
@@ -571,6 +573,7 @@ a.curious:hover{
 .silver { color: #A9A9A9 }
 .dove { color: #737373 }
 .alabaster { color: #F7F7F7 }
+.brightturqoise { color: #04ECD5 }
 
 /* backgrounds */
 .b-zircon {background-color:#FAFCFF;}
@@ -604,6 +607,10 @@ a.curious:hover{
 }
 .bt-fp {
   border-top:1px solid rgba(193, 242, 254, 0.5)
+}
+
+.bt-bt {
+  border-top:1px solid rgba(4, 236, 213, 0.25)
 }
 
 /* block quote */
