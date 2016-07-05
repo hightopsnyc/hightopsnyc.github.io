@@ -34,10 +34,10 @@ fs.writeFile("css/htps.css", output, 'utf-8')
 
 
 // Using Sqwish for CSS
-compressor.minify({
-    compressor: 'sqwish',
-    input: './css/htps.css',
-    output: './css/htps.min.css'
+new compressor.minify({
+    type: 'sqwish',
+    fileIn: './css/htps.css',
+    fileOut: './css/htps.min.css'
 });
 
 var content = ['index.html'];

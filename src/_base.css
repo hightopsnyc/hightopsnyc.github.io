@@ -17,3 +17,5 @@ html, body {
 
 /* overflows */
 .of-aut { overflow: auto; }
+
+.v-top { vertical-align: top; }

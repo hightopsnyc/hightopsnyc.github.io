@@ -18,7 +18,8 @@ body {
 .tt2 {font-size: 2.369em;}
 .tt3 {font-size: 1.777em;}
 .tt4 {font-size: 1.333em;}
-.tt5 {font-size: 1.0em}
+.tt5 {font-size: 1.0em;  }
+.tt6 {font-size: 0.33em;  }
 
 @media (--breakpoint-medium) {
   .tt5-m {font-size: 1.111em;}
@@ -40,6 +41,7 @@ img { max-width: 100%; }
 }
 
 /* tracking and transforms */
+.tracked-01 { letter-spacing:0.01rem }
 .tracked-toight { letter-spacing: -0.05em }
 .tracked-tight { letter-spacing: -0.033em; }
 .ttu  { text-transform: uppercase }

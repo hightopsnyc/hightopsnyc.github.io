@@ -12,10 +12,13 @@
 .dove { color: $dove }
 .alabaster { color: $alabaster }
 .brightturqoise { color: $brightturqoise }
+.white { color:#fff}
 
 /* backgrounds */
-.b-zircon {background-color:$zircon;}
-.b-mineshaft { background-color:$mineshaft}
+.b-zircon     {background-color:$zircon;}
+.b-mineshaft  { background-color:$mineshaft}
+.b-heliotrope { background-color: $heliotrope}
+.b-curious     { background-color: $curious}
 /* borders */
 .bt-s { border-top:1px solid color($spring alpha(-75%)) }
 .bt-sp { border-top:1px solid color($spring alpha(-25%)) }
