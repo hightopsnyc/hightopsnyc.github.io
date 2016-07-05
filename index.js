@@ -17,7 +17,7 @@ var cssnext = require('postcss-cssnext');
 var css = fs.readFileSync("src/htps.css", "utf8")
 
 // process css
-var output = postcss([autoprefixer])
+var output = postcss()
   .use(atImport())
   .use(cssvariables())
   .use(simpleVars())
@@ -34,10 +34,10 @@ fs.writeFile("css/htps.css", output, 'utf-8')
 
 
 // Using Sqwish for CSS
-new compressor.minify({
-    type: 'sqwish',
-    fileIn: './css/htps.css',
-    fileOut: './css/htps.min.css'
+compressor.minify({
+    compressor: 'sqwish',
+    input: './css/htps.css',
+    output: './css/htps.min.css'
 });
 
 var content = ['index.html'];
