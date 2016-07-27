@@ -66,24 +66,26 @@
 html, body {
   height: 100%;
   margin:0;
+  background-color:#26A8DF;
 }
 
 /* position */
-.pos-abs { position: absolute; }
+.pos-abs  { position: absolute; }
 .pos-rel  { position: relative; }
+.pos-fxd  { position: fixed; }
 
 /* coordinates */
 .top-1    { top: 16px; top: 1rem; }
-.left-1    { left: 16px; left: 1rem; }
+.left-1   { left: 16px; left: 1rem; }
 
 /* display */
 
-.db {     display: block; }
+.db     { display: block; }
 
 /* overflows */
 .of-aut { overflow: auto; }
 
-.v-top { vertical-align: top; }
+.v-top  { vertical-align: top; }
 html {font-size: 1em;}
 /* base font sizes */
 body {
@@ -446,21 +448,25 @@ img { max-width: 100%; }
 /* spacing */
 
 /* margins */
-.mrs {  margin-right: 16px;  margin-right: 1rem;}
-.mrl  {   margin-right: 32px;   margin-right: 2rem; }
-.mbl  {   margin-bottom: 32px;   margin-bottom: 2rem; }
-.mam  {   margin: 16px;   margin: 1rem; }
+.mrs  { margin-right: 16px; margin-right: 1rem;}
+.mrl  { margin-right: 32px; margin-right: 2rem; }
+.mbl  { margin-bottom: 32px; margin-bottom: 2rem; }
+.mam  { margin: 16px; margin: 1rem; }
+
+.mb0  { margin-bottom:0px;  }
+.mt2  { margin-top: 8px; margin-top: 0.5rem; }
+.mt3  { margin-top: 16px; margin-top: 1rem;   }
 
 /* paddings */
-.pam  {   padding: 16px;   padding: 1rem; }
-.pvl {  padding-top: 32px;  padding-top: 2rem; padding-bottom: 32px; padding-bottom: 2rem; }
-.pvm { padding-top: 16px; padding-top: 1rem; padding-bottom: 16px; padding-bottom: 1rem; }
-.pbxl  {  padding-bottom: 64px;  padding-bottom: 4rem; }
-.ptxl  {  padding-top: 64px;  padding-top: 4rem; }
+.pam   { padding: 16px; padding: 1rem; }
+.pvl   { padding-top: 32px; padding-top: 2rem; padding-bottom: 32px; padding-bottom: 2rem; }
+.pvm   { padding-top: 16px; padding-top: 1rem; padding-bottom: 16px; padding-bottom: 1rem; }
+.pbxl  { padding-bottom: 64px; padding-bottom: 4rem; }
+.ptxl  { padding-top: 64px; padding-top: 4rem; }
 .pvxxl { padding-top: 128px; padding-top: 8rem; padding-bottom: 128px; padding-bottom: 8rem; }
-.prl  {   padding-right: 32px;   padding-right: 2rem; }
-.pv-1 { padding-top:1px;  padding-bottom:1px; }
-.ph-3 { padding-left:3px; padding-right:3px;  }
+.prl   { padding-right: 32px; padding-right: 2rem; }
+.pv-1  { padding-top:1px;  padding-bottom:1px; }
+.ph-3  { padding-left:3px; padding-right:3px;  }
 
 .pbl  {   padding-bottom: 32px;   padding-bottom: 2rem; }
 .pbxxl { padding-bottom: 128px; padding-bottom: 8rem; }
@@ -583,6 +589,7 @@ a.curious:hover{
 .white { color:#fff}
 
 /* backgrounds */
+.b-white      {background-color:#fff;} 
 .b-zircon     {background-color:#FAFCFF;}
 .b-mineshaft  { background-color:#2B2B2B}
 .b-heliotrope { background-color: #BF7EF2}

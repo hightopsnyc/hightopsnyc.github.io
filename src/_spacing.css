@@ -1,21 +1,25 @@
 /* spacing */
 
 /* margins */
-.mrs {  margin-right: 1rem;}
-.mrl  {   margin-right: 2rem; }
-.mbl  {   margin-bottom: 2rem; }
-.mam  {   margin: 1rem; }
+.mrs  { margin-right: 1rem;}
+.mrl  { margin-right: 2rem; }
+.mbl  { margin-bottom: 2rem; }
+.mam  { margin: 1rem; }
+
+.mb0  { margin-bottom:0px;  }
+.mt2  { margin-top: 0.5rem; }
+.mt3  { margin-top: 1rem;   }
 
 /* paddings */
-.pam  {   padding: 1rem; }
-.pvl {  padding-top: 2rem; padding-bottom: 2rem; }
-.pvm { padding-top: 1rem; padding-bottom: 1rem; }
-.pbxl  {  padding-bottom: 4rem; }
-.ptxl  {  padding-top: 4rem; }
+.pam   { padding: 1rem; }
+.pvl   { padding-top: 2rem; padding-bottom: 2rem; }
+.pvm   { padding-top: 1rem; padding-bottom: 1rem; }
+.pbxl  { padding-bottom: 4rem; }
+.ptxl  { padding-top: 4rem; }
 .pvxxl { padding-top: 8rem; padding-bottom: 8rem; }
-.prl  {   padding-right: 2rem; }
-.pv-1 { padding-top:1px;  padding-bottom:1px; }
-.ph-3 { padding-left:3px; padding-right:3px;  }
+.prl   { padding-right: 2rem; }
+.pv-1  { padding-top:1px;  padding-bottom:1px; }
+.ph-3  { padding-left:3px; padding-right:3px;  }
 
 .pbl  {   padding-bottom: 2rem; }
 .pbxxl { padding-bottom: 8rem; }

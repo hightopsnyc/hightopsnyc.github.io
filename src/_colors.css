@@ -15,6 +15,7 @@
 .white { color:#fff}
 
 /* backgrounds */
+.b-white      {background-color:#fff;} 
 .b-zircon     {background-color:$zircon;}
 .b-mineshaft  { background-color:$mineshaft}
 .b-heliotrope { background-color: $heliotrope}

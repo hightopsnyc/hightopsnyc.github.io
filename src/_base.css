@@ -1,21 +1,23 @@
 html, body {
   height: 100%;
   margin:0;
+  background-color:$curious;
 }
 
 /* position */
-.pos-abs { position: absolute; }
+.pos-abs  { position: absolute; }
 .pos-rel  { position: relative; }
+.pos-fxd  { position: fixed; }
 
 /* coordinates */
 .top-1    { top: 1rem; }
-.left-1    { left: 1rem; }
+.left-1   { left: 1rem; }
 
 /* display */
 
-.db {     display: block; }
+.db     { display: block; }
 
 /* overflows */
 .of-aut { overflow: auto; }
 
-.v-top { vertical-align: top; }
+.v-top  { vertical-align: top; }
