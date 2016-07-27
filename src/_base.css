@@ -9,6 +9,8 @@ html, body {
 .pos-rel  { position: relative; }
 .pos-fxd  { position: fixed; }
 
+.z--999   { z-index: 999; }
+
 /* coordinates */
 .top-1    { top: 1rem; }
 .left-1   { left: 1rem; }

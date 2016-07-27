@@ -1,3 +1,5 @@
+/* https://github.com/afeld/emoji-css */
+
 .em-link {
   background-image: url("../images/emoji/link.png"); }
 
@@ -6,6 +8,9 @@
 
 .em-key {
   background-image: url("../images/emoji/key.png"); }
+
+.em-mail {
+  background-image: url("../images/emoji/mailbox_with_mail.png"); }
 
 .em {
   height: 1em;

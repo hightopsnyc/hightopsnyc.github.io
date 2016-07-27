@@ -42,6 +42,8 @@
 /* snailchat */
 
 /* grays */
+
+/* upstate */
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
@@ -73,6 +75,8 @@ html, body {
 .pos-abs  { position: absolute; }
 .pos-rel  { position: relative; }
 .pos-fxd  { position: fixed; }
+
+.z--999   { z-index: 999; }
 
 /* coordinates */
 .top-1    { top: 16px; top: 1rem; }
@@ -589,11 +593,13 @@ a.curious:hover{
 .white { color:#fff}
 
 /* backgrounds */
-.b-white      {background-color:#fff;} 
+.b-white      {background-color:#fff;}
 .b-zircon     {background-color:#FAFCFF;}
 .b-mineshaft  { background-color:#2B2B2B}
 .b-heliotrope { background-color: #BF7EF2}
 .b-curious     { background-color: #26A8DF}
+.b-shamrock     { background-color: #40D37F}
+
 /* borders */
 .bt-s { border-top:1px solid rgba(42, 255, 165, 0.25) }
 .bt-sp { border-top:1px solid rgba(42, 255, 165, 0.75) }
@@ -635,6 +641,8 @@ a.curious:hover{
   border-left:0.5rem solid rgba(38, 168, 223, 0.25);
 }
 
+/* https://github.com/afeld/emoji-css */
+
 .em-link {
   background-image: url("../images/emoji/link.png"); }
 
@@ -644,6 +652,9 @@ a.curious:hover{
 .em-key {
   background-image: url("../images/emoji/key.png"); }
 
+.em-mail {
+  background-image: url("../images/emoji/mailbox_with_mail.png"); }
+
 .em {
   height: 1em;
   width: 1em;
@@ -652,6 +663,20 @@ a.curious:hover{
   background-size: contain;
   display: inline-block;
   vertical-align: middle;
+}
+
+.mailmoji {
+  position: fixed;
+  top: 16px;
+  left: 62px;
+  -webkit-transition: 0.33s;
+  transition:0.33s;
+  opacity:0;
+  margin-top:10px;
+}
+#logomark:hover > .mailmoji {
+  opacity:1.0;
+  margin-top:0px;
 }
 
 /*

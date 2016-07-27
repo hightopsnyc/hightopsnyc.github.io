@@ -15,11 +15,13 @@
 .white { color:#fff}
 
 /* backgrounds */
-.b-white      {background-color:#fff;} 
+.b-white      {background-color:#fff;}
 .b-zircon     {background-color:$zircon;}
 .b-mineshaft  { background-color:$mineshaft}
 .b-heliotrope { background-color: $heliotrope}
 .b-curious     { background-color: $curious}
+.b-shamrock     { background-color: $shamrock}
+
 /* borders */
 .bt-s { border-top:1px solid color($spring alpha(-75%)) }
 .bt-sp { border-top:1px solid color($spring alpha(-25%)) }

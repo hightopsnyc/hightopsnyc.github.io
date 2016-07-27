@@ -14,8 +14,6 @@
 
 @import "./_grid";
 
-@import "./_theme";
-
 @import "./_spacing";
 @import "./_links";
 
@@ -24,6 +22,8 @@
 @import "./_colors";
 
 @import "./_emoji";
+
+@import "./_theme";
 
 /*
 
