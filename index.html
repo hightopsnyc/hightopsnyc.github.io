@@ -42,7 +42,7 @@
     <div class="phm">
       <h1 class="ablack normal dusty tc tt3 tracked-tight pvm">same thing everyday.</h1>
       <img src="images/hightops-sneaker02.png" alt="hightops sneaker" style="max-width:250px;" class="pvl">
-      <h2 class="archivo400 silver tt5 ttu bold tc">cool apps <i class="em em-sparkles"></i>  sweet code <i class="em em-sparkles"></i>  hot design <i class="em em-sparkles"></i>  honest vibes</h1>
+      <a href="#workworkworkworkworkwork" class="no-underline silver"> <h2 class="archivo400 silver tt5 ttu bold tc">cool apps <i class="em em-sparkles"></i>  sweet code <i class="em em-sparkles"></i>  hot design <i class="em em-sparkles"></i>  honest vibes</a></h2>
       </div>
     </header>
 
@@ -71,7 +71,7 @@
       </div>
     </section>
 
-    <section class="tl pbxl pbxl bt-v db of-aut b-white">
+    <section id="workworkworkworkworkwork" class="tl pbxl pbxl bt-v db of-aut b-white">
       <div class="center mw8-l mw6-m phm">
         <h2 class="ablack normal dusty tt3 tracked-tight">Nice Track <span class="tt6 ttu v-top b-heliotrope brd-5 tracked-01 white pv-1 ph-3">lab</span></h2>
         <div class="fl w-100 w-75-l">
@@ -469,11 +469,14 @@
       	    }, 900, 'swing', function () {
       	        window.location.hash = target;
       	    });
-            setTimeout(function(){
-              $('.email-link')
-                .delay(3000)
-                .addClass('activated');
-            }, 1250);
+            
+            if(target === "#workworkworkworkworkwork") {
+              setTimeout(function(){
+                $('.email-link')
+                  .delay(3000)
+                  .addClass('activated');
+              }, 1250);
+            };
 
 
             //.delay(100).addClass('activated').delay(1500).removeClass('activated');
