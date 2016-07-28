@@ -35,9 +35,9 @@
 @media (--breakpoint-medium-and-up){
 }
 @media (--breakpoint-large) {
-  .prl-l  {   padding-right: 2rem; }
-  .pbl-l  {   padding-bottom: 2rem; }
-  .pll-l  {   padding-left: 2rem; }
-  .plxl-l  {  padding-left: 4rem; }
-  .phxxl-l {  padding-left: 8rem;   padding-right: 8rem; }
+  .prl-l   { padding-right:  2rem; }
+  .pbl-l   { padding-bottom: 2rem; }
+  .pll-l   { padding-left: 2rem; }
+  .plxl-l  { padding-left: 4rem; }
+  .phxxl-l { padding-left: 8rem; padding-right: 8rem; }
 }

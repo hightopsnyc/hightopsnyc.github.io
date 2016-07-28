@@ -488,11 +488,11 @@ img { max-width: 100%; }
 @media screen and (min-width: 30em){
 }
 @media screen and (min-width: 60em) {
-  .prl-l  {   padding-right: 2rem; }
-  .pbl-l  {   padding-bottom: 2rem; }
-  .pll-l  {   padding-left: 2rem; }
-  .plxl-l  {  padding-left: 4rem; }
-  .phxxl-l {  padding-left: 8rem;   padding-right: 8rem; }
+  .prl-l   { padding-right:  2rem; }
+  .pbl-l   { padding-bottom: 2rem; }
+  .pll-l   { padding-left: 2rem; }
+  .plxl-l  { padding-left: 4rem; }
+  .phxxl-l { padding-left: 8rem; padding-right: 8rem; }
 }
 .link {
 text-decoration: none;
