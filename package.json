@@ -35,7 +35,7 @@
     "watch": "^0.16.0"
   },
   "scripts": {
-    "dev": "parallelshell 'npm run build:css' 'npm run server'",
+    "start": "parallelshell 'npm run build:css' 'npm run server'",
     "build:css": "watch 'node index.js' src/",
     "server": "browser-sync start --server --no-open --files 'css/*.css, *.html'",
     "uncss": "uncss index.html > css/htps.min.css"
